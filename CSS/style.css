@@ -124,15 +124,91 @@ header nav .right-side-menu .sub-menu a {
     font-size: 2rem;
     background-color: rgba(255,255,255,0.5);
     border-radius: 1rem;
+    position: relative;
+    z-index: 9;
+    text-transform: capitalize;
 }
 header nav .right-side-menu .sub-menu button{
     padding: 0.5rem 2.5rem;
     background-color: var(--button-background);
     color: #fff;
+    position: relative;
+    z-index: 9;
 }
 header nav .right-side-menu .sub-menu button:hover{
     background: royalblue;
+    
+
 }
 header nav .right-side-menu .sub-menu a:hover {
 background: #4b709e;
+
+
 }
+/* ------------------------------our hero css style------------------- */
+
+.main-hero-section{
+    padding: 0 20rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem 0;
+
+
+}
+.main-hero-section .hero-left-side {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+.main-hero-section h1{
+    font-size: 7.5rem;
+    width: 55rem;
+    line-height: 9rem;
+    margin-bottom: 5rem;
+}
+.main-hero-section p{
+    margin-bottom: 8rem;
+    width: 45rem;
+}
+.main-hero-section a img{
+    width:13.5rem ;
+    height: 4rem;
+}
+.main-hero-section .button-group .appstore{
+    height: 4.3rem;
+    margin-top: -0.4rem ;
+}
+.main-hero-section .button-group a:first-child{
+    margin-right: 2.5rem;
+}
+/* ------------------------------our hero right side css style------------------- */
+.main-hero-section .hero-right-side{
+    width: 50%;
+    height: 100vh;
+    background: var(--background-color);
+    position: absolute;
+    right: 0;
+    top:0;
+    border-radius: 90px 20px 0px 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-hero-section .hero-right-side img{
+    width: 100rem;
+    height: 90rem;
+    margin-right: 43rem;
+}
+
+
+
+
+
+
